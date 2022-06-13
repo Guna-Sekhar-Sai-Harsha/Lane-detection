@@ -6,9 +6,8 @@
 ![Method overview](data/figures/method-overview.png "Method overview")
 </div>
 
-This repository holds the source code for LaneATT, a novel state-of-the-art lane detection model proposed in the [paper](https://arxiv.org/abs/2010.12035) "_Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection_", by [Lucas Tabelini](https://github.com/lucastabelini), [Rodrigo Berriel](http://rodrigoberriel.com), [Thiago M. Paixão](https://sites.google.com/view/thiagopx), [Claudine Badue](http://www.inf.ufes.br/~claudine/), [Alberto F. De Souza](http://www.lcad.inf.ufes.br/team/index.php/Prof._Dr._Alberto_Ferreira_De_Souza), and [Thiago Oliveira-Santos](http://www.inf.ufes.br/~todsantos/home).
+This repository holds the code for LaneATT, a novel state-of-the-art lane detection model proposed in the [paper](https://arxiv.org/abs/2010.12035) "_Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection_", by [Lucas Tabelini], [Rodrigo Berriel], [Thiago M. Paixão], [Claudine Badue], [Alberto F. De Souza], and [Thiago Oliveira-Santos]. The goal was to replicate the results obtained by the authors of the paper.
 
-**News (2021-03-01)**: Our paper presenting LaneATT has been accepted to CVPR'21.
 
 ### Table of contents
 1. [Prerequisites](#1-prerequisites)
@@ -90,7 +89,7 @@ The results on TuSimple and LLAMAS should match exactly the ones reported in the
 | ResNet-34     | 76.68                              |  76.66            | 171 |
 | ResNet-122    | 77.02                              |  77.02            | 26 |
 
-"F1, official impl." refers to the official CULane metric implementation in C++. "F1, our impl" refers to our implementation of the metric in Python. The results reported in the paper were computed using the [official metric implementation](https://github.com/XingangPan/SCNN/tree/master/tools/lane_evaluation)
+"F1, official impl." refers to the official CULane metric implementation in C++. "F1, our impl" refers to the implementation of the metric in Python. The results reported in the paper were computed using the [official metric implementation](https://github.com/XingangPan/SCNN/tree/master/tools/lane_evaluation)
  (requires OpenCV 2.4).
  [![CULane video](data/figures/culane_video.png "CULane video")](https://youtu.be/ghs93acwkBQ)
 
@@ -149,7 +148,6 @@ Additional results can be seen in the paper.
 - **main.py:** Runs the training or testing phase of an experiment
 
 ### 6. Citation
-If you use this code in your research, please cite:
 
 ```bibtex
 @InProceedings{tabelini2021cvpr,
