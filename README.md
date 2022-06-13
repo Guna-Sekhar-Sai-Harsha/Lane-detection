@@ -91,7 +91,6 @@ The results on TuSimple and LLAMAS should match exactly the ones reported in the
 
 "F1, official impl." refers to the official CULane metric implementation in C++. "F1, our impl" refers to the implementation of the metric in Python. The results reported in the paper were computed using the [official metric implementation](https://github.com/XingangPan/SCNN/tree/master/tools/lane_evaluation)
  (requires OpenCV 2.4).
- [![CULane video](data/figures/culane_video.png "CULane video")](https://youtu.be/ghs93acwkBQ)
 
 #### TuSimple
 |   Backbone    |      Accuracy (%)     |      FDR (%)     |      FNR (%)     |      F1 (%)     | FPS |
@@ -109,7 +108,6 @@ Since the TuSimple dataset is not sequential, no qualitative video is available.
 | ResNet-34     |      93.74      |     96.79        |    90.88      | 171 |
 | ResNet-122    |      93.54      |     96.82        |    90.47      | 26 |
 
- [![LLAMAS video](data/figures/llamas_video.png "LLAMAS video")](https://youtu.be/1f_y4A-muMg)
 
 Additional results can be seen in the paper.
 
